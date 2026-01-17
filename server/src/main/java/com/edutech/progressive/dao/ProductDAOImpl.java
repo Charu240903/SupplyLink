@@ -5,7 +5,7 @@ import java.util.List;
 
 import com.edutech.progressive.entity.Product;
 
-public class ProductDAOImpl implements ProductDAO{
+public class ProductDAOImpl implements ProductDAO {
 
     @Override
     public int addProduct(Product product) {

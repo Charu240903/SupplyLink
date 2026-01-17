@@ -5,7 +5,7 @@ import java.util.List;
 
 import com.edutech.progressive.entity.Supplier;
 
-public class SupplierDAOImpl implements SupplierDAO{
+public class SupplierDAOImpl implements SupplierDAO {
 
     @Override
     public int addSupplier(Supplier supplier) {
@@ -31,7 +31,5 @@ public class SupplierDAOImpl implements SupplierDAO{
     public List<Supplier> getAllSuppliers() {
         return new ArrayList<>();
     }
-
-
 
 }

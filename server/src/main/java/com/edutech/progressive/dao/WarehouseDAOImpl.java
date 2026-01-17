@@ -5,7 +5,7 @@ import java.util.List;
 
 import com.edutech.progressive.entity.Warehouse;
 
-public class WarehouseDAOImpl implements WarehouseDAO{
+public class WarehouseDAOImpl implements WarehouseDAO {
 
     @Override
     public int addWarehouse(Warehouse warehouse) {

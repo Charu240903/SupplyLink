@@ -1,6 +1,5 @@
 package com.edutech.progressive.service;
 
-
 import com.edutech.progressive.entity.Supplier;
 
 import java.util.List;
@@ -15,7 +14,7 @@ public interface SupplierService {
     default public void emptyArrayList() {
     }
 
-    //Do not implement these methods in SupplierServiceImplArraylist.java class
+    // Do not implement these methods in SupplierServiceImplArraylist.java class
     default void updateSupplier(Supplier supplier) {
     }
 
